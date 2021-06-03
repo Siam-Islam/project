@@ -18,7 +18,7 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "1sl7ByqYNNYGyvNnN1hrxW_XNDxzrzVm2",
+          "id": "0AJpHJbc3FVxcUk9PVA",
           "name": "Drive One",
           "protect_file_link": false,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
