@@ -25,22 +25,8 @@ var authConfig = {
   // It is possible to set only the password, only the user name, and the user name and password at the same time
   roots: [
     {
-      id: '',
-      name: 'Sample1',
-      user: 'admin',
-      pass: ''
-    },
-    {
-      id: 'drive_id',
-      name: 'Sample2',
-      user: 'admin2',
-      pass: 'index'
-    },
-    {
       id: '1sl7ByqYNNYGyvNnN1hrxW_XNDxzrzVm2',
-      name: 'TD',
-      user: 'admin3',
-      pass: 'index2'
+      name: 'TD'
     }
   ],
   /**
