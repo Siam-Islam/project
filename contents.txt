@@ -10,7 +10,7 @@ var authConfig = {
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: '202264815644.apps.googleusercontent.com',
   client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
-  refresh_token: '1/04MLxHH0hByLYCgYIARAAGAQSNwF-L9IrB26akerYUDNATKeoUrm9eK3UjKCM5iPgmUpkmhqjFUCRheYXphbqME8Bfg8LdlCIRsg', // Refresh token
+  refresh_token: '1//04bRpw21j-VqcCgYIARAAGAQSNwF-L9IrfEHqRy7dEECCyp10Kgy746OpZfaSc_9k6KcVfQpqBpIrOlDg4rIT08K2qPVKahIFCss', // Refresh token
 
   /**
    * Set up multiple Drives to display; add multiples by format
