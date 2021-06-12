@@ -1,5 +1,5 @@
 var authConfig = {
-  siteName: 'G-Index', // WebSite Name
+  siteName: 'Anime For Fun', // WebSite Name
   version: '1.0', // VersionControl, do not modify manually
   // Only material!
   theme: 'material', // material  classic
