@@ -444,15 +444,15 @@ function render_search_result_list() {
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
 	    <div class="mdui-col-xs-12 mdui-col-sm-7">
-	     文件
+	     File
 	<i class="mdui-icon material-icons icon-sort" data-sort="name" data-order="more">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-3 mdui-text-right">
-	     修改时间
+	     Date
 	<i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
 	    </div> 
 	    <div class="mdui-col-sm-2 mdui-text-right">
-	     大小
+	     Size
 	<i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
 	    </div> 
 	    </li> 
@@ -763,28 +763,7 @@ function copyToClipboard(str) {
 // 文件展示 视频 |mp4|webm|avi|
 function file_video(path) {
   const url = window.location.origin + path;
-  let player_items = [
-    {
-      text: 'MXPlayer(Free)',
-      href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
-    },
-    {
-      text: 'MXPlayer(Pro)',
-      href: `intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
-    },
-    {
-      text: 'nPlayer',
-      href: `nplayer-${url}`,
-    },
-    {
-      text: 'VLC',
-      href: `vlc://${url}`,
-    },
-    {
-      text: 'PotPlayer',
-      href: `potplayer://${url}`
-    }
-  ]
+  let player_items = []
     .map(it => `<li class="mdui-menu-item"><a href="${it.href}" class="mdui-ripple">${it.text}</a></li>`)
     .join('');
   player_items += `<li class="mdui-divider"></li>
