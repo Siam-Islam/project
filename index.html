@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - JW Player</title>
+  <title>Test</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,8 +10,8 @@
 <!-- partial:index.partial.html -->
 <div class='video'>
   <script src="https://use.fontawesome.com/20603b964f.js"></script>
-  <script type="text/javascript" src="https://content.jwplatform.com/libraries/LJ361JYj.js"></script>
-  <script type="text/javascript">
+  <script src="https://content.jwplatform.com/libraries/LJ361JYj.js"></script>
+  <script>
     jwplayer.key = 'ypdL3Acgwp4Uh2/LDE9dYh3W/EPwDMuA2yid4ytssfI=';
     // jwplayer.key = 'ITWMv7t88JGzI0xPwW8I0+LveiXX9SWbfdmt0ArUSyc=';
   </script>
@@ -23,16 +23,7 @@
       height: window.innerHeight,
       autostart: false,
       file : 'https://file-to-my-bot.herokuapp.com/AgADcw1166',
-      type : 'video/mp4',
-      description: 'etoski on Codepen',
-      aboutlink: 'https://www.jwplayer.com/',
-      tracks:[{"file":"<?php echo $cc; ?>","label":"Indonesia","kind":"captions","default":"true"}],
-      captions: {color: '#ffb800',fontSize: 30,backgroundOpacity: 0},
-      sharing: {
-        sites: ['facebook','twitter','tumblr','googleplus',{icon: '//support-static.jwplayer.com/images/awesome.svg', src: 'http://www.jwplayer.com/?', label:'jwplayer'}],
-        code: encodeURI("<iframe src='<?php echo $sharing;?>' width='480' height='320'></iframe>"),
-        link: "<?php echo $sharing;?>"
-      }
+      type : 'video/mp4'
     })
   </script>
 </div>
